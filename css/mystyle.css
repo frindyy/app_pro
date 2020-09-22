@@ -169,3 +169,40 @@ footer a {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
   box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
 }
+
+.header-mission h5 {
+  font-size: 18px;
+}
+
+.header-mission span {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.body-mission h5 {
+  font-size: 16px;
+  color: #1d1b30;
+}
+
+.body-mission .media-body {
+  font-size: 12px;
+  color: darkgray;
+}
+
+@media (min-width: 992px) {
+  .header-mission h5 {
+    font-size: 24px;
+  }
+
+  .header-mission span {
+    font-size: 18px;
+  }
+
+  .body-mission h5 {
+    font-size: 18px;
+  }
+
+  .body-mission .media-body {
+    font-size: 16px;
+  }
+}
